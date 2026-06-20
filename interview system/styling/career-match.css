@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    padding:40px;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.header p{
+    color:#94a3b8;
+}
+
+.career-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.career-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.career-card h2{
+    margin-bottom:15px;
+}
+
+.progress-bar{
+    width:100%;
+    height:30px;
+    background:#334155;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+.ai{
+    width:92%;
+    background:#22c55e;
+}
+
+.data{
+    width:85%;
+    background:#3b82f6;
+}
+
+.software{
+    width:80%;
+    background:#f59e0b;
+}
+
+.cyber{
+    width:72%;
+    background:#ef4444;
+}
+
+.career-card p{
+    margin-top:15px;
+    color:#cbd5e1;
+}
+
+.recommendation{
+    margin-top:40px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.recommendation h2{
+    margin-bottom:15px;
+    color:#60a5fa;
+}
