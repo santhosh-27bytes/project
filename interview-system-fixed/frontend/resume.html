@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analysis</title>
+
+    <link rel="stylesheet" href="styling/resume.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Resume Analysis</h1>
+            <p>Upload your resume and let AI analyze it.</p>
+        </div>
+
+        <div class="upload-card">
+
+            <h2>Upload Resume</h2>
+
+            <input type="file" id="resumeFile">
+
+            <button id="analyzeBtn">
+                Analyze Resume
+            </button>
+
+        </div>
+
+        <div class="results">
+
+            <div class="result-card">
+
+                <h3>Resume Score</h3>
+
+                <div class="score" id="resumeScore">
+                    85%
+                </div>
+
+            </div>
+
+            <div class="result-card">
+
+                <h3>Extracted Skills</h3>
+
+                <ul id="skillsList">
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Machine Learning</li>
+                    <li>HTML</li>
+                </ul>
+
+            </div>
+
+            <div class="result-card">
+
+                <h3>Projects</h3>
+
+                <ul id="projectsList">
+                    <li>CareerPilot AI</li>
+                    <li>Smart Railway Monitoring</li>
+                </ul>
+
+            </div>
+
+            <div class="result-card">
+
+                <h3>Certifications</h3>
+
+                <ul id="certificationsList">
+                    <li>Python Certification</li>
+                    <li>Data Analytics Course</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="next-step">
+            <button onclick="window.location.href='career-match.html'">
+                Continue to Career Match
+            </button>
+        </div>
+
+    </div>
+
+    <script src="js/resume.js"></script>
+
+</body>
+
+</html>
